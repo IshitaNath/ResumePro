@@ -1,0 +1,55 @@
+/* ResumeBuilder.css */
+
+/* Main container */
+.resume-builder {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9fafb; /* Light background */
+  }
+  
+  /* Content area beside sidebar */
+  .resume-content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+  }
+  
+  /* Each form container */
+  .form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Small heading styling */
+  .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #111827;
+  }
+  
+  /* Paragraph (optional, remove later when forms are ready) */
+  .form-container p {
+    color: #6b7280;
+  }
+
+.proceed-to-template {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.proceed-to-template button {
+  padding: 14px 28px;
+  font-size: 1.2rem;
+  background-color: #020207;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.proceed-to-template button:hover {
+  background-color: #545456;
+}
